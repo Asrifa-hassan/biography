@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biography</title>
+    <style>
+        .container {
+            margin: 10px auto;
+            width: 80%;
+            height: 680px;
+            background-color: rgb(27, 27, 26);
+            text-align: center;
+            align-items: center;
+        }
+
+        .row-1{
+            text-align: center;
+            height: auto;
+            width: 100%;
+            align-items: center;
+        } 
+         
+        .row-1 h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif italic;
+            font-size: 23px;
+            color:white;
+            padding-top: 50px;
+        }
+        .row-1 p{
+            color: white;
+            font-size: 11px;
+            margin-top: -18px;
+
+        }
+
+        .row-2{
+            width: 80%;
+            height: 350px;
+            background: white;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .row-2 .col-1{
+            width: 70%;
+            height: inherit;
+        }
+        
+        .row-2 .col-1 p{
+            font-size: 36px;
+            margin-top: 120px;
+            text-align: center;
+        }
+        .row-2 .col-2{
+            width: 30%;
+            height:inherit;
+               
+        }
+        .row-2 .col-2 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .row-3{
+            text-align:center;
+            align-items: center;
+            height: auto;
+        }
+        .row-3 h1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif italic;
+            color:white;
+            padding-top: 4px;
+            margin-top: 6px;
+            margin-right: 130px;
+        }
+        .row-3 p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif italic;
+            color:white;
+            text-align: justify;
+            width: 350px;
+            font-size: 14px;
+            margin-left: 500px;
+        }
+        @media only screen and (max-width:600px) and (min-width:300px){
+            .container{
+                background-color: grey;
+                height:auto;
+                width: 100%;
+            }
+            .row-1 h3{
+                font-size: 18px;
+            }
+            .row-1 p{
+                font-size: 5px;
+            }
+            .row-2{
+                height: 180px;
+            }
+            .row-2 .col-1 p{
+                font-size: 10px;
+                margin-top: 75px;
+
+            }
+       
+            .row-3{
+                height: 300px;
+                text-align: center;
+            }
+            .row-3 h1{
+                font-size: 20px;
+                padding-top: 40px;
+            }
+            .row-3 p{
+            
+            width: 80%;
+            margin-left: 50px;
+        }
+        }
+        @media only screen and (max-width:992px) and (min-width:601px){
+            .container{
+                background-color:black;
+                height:auto;
+                width: 100%;
+            }
+            .row-1 h3{
+                font-size: 20px;
+            }
+            .row-1 p{
+                font-size: 8px;
+            }
+            .row-2{
+                height: 210px;
+            }
+            .row-2 .col-1 p{
+                font-size: 20px;
+                margin-top: 90px;
+
+            }
+       
+            .row-3{
+                height: 450px;
+                text-align: center;
+            }
+            .row-3 h1{
+                font-size: 30px;
+                padding-top: 70px;
+            }
+            .row-3 p{
+            
+            width: 85%;
+            margin-left: 60px;
+        }
+        } 
+        @media only screen and (max-width:1200px) and (min-width:993px){
+            .container{
+                background-color:black;
+                height:auto;
+                width: 100%;
+            }
+            .row-1 h3{
+                font-size: 25px;
+            }
+            .row-1 p{
+                font-size: 10px;
+            }
+            .row-2{
+                height: 250px;
+            }
+            .row-2 .col-1 p{
+                font-size: 25px;
+                margin-top: 100px;
+
+            }
+       
+            .row-3{
+                height: 500px;
+                text-align: center;
+            }
+            .row-3 h1{
+                font-size: 35px;
+                padding-top: 80px;
+            }
+            .row-3 p{
+            
+            width: 100%;
+            margin-left: 80px;
+        }  
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row-1">
+            <h3>Steve Jobs</h3>
+            <p>1955-2011</p><br>
+        </div>
+        <div class="row-2">
+            <div class="col-1">
+                <p>"Design is not just what it look like <br>
+                    and feels like.Design is how it works"</p>
+            </div>
+           <div class="col-2">
+                <img src="images/stevejobs.png" alt="steve jobs">
+           </div>
+           
+        </div>
+        <div class="row-3">
+            <h1> Biography</h1>
+            <p>Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American business magnate, inventor, and investor best known as the co-founder of Apple. Jobs was also chairman and majority shareholder of Pixar, and the founder of NeXT. He was a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak.</p>
+        </div>
+    </div>
+</body>
+</html>
